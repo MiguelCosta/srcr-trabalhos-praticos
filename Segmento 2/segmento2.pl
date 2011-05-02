@@ -63,7 +63,6 @@ preco('Bruffen',(6,'Criancas')).
 
 % Representação do conhecimento imperfeito
 
-<<<<<<< .mine
 % existe: Q,R -> {V,F}
 existe(Q,verdadeiro) :- 
 				Q.
@@ -74,18 +73,6 @@ existe(Q,desconhecido) :-
 				 nao(-Q).
 			
 
-=======
-% demo: Q,R -> {V,F}
-existe(Q,verdadeiro) :- 
-				Q.
-existe(Q,falso) :- 
-				-Q.
-existe(Q,desconhecido) :-
-				 nao(Q),
-				 nao(-Q).
-			
-
->>>>>>> .r5
 nao(X) :-
 		X, !, fail.
 nao(X).
