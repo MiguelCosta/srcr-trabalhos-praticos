@@ -61,6 +61,17 @@ preco('Bruffen',(6,'Criancas')).
 -preco('Acarbose Alsucril',(X,'Criancas')).
 
 
+% Representação do conhecimento imperfeito
+
+% demo: Q,R -> {V,F}
+existe(Q,verdadeiro) :- 
+				Q.
+existe(Q,falso) :- 
+				-Q.
+existe(Q,desconhecido) :-
+				 nao(Q),
+				 nao(-Q).
+			
 
 nao(X) :-
 		X, !, fail.
