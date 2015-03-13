@@ -1,0 +1,1 @@
+Repositório para os trabalhos práticos de Sistemas de Representação de Conhecimento e Raciocínio
